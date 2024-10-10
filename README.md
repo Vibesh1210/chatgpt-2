@@ -6,9 +6,13 @@ This is a Python project designed to process and analyze textual data. The proje
 ### Project Structure
 
 1. bigram.py: Contains functions to process text into bigrams, which are sequences of two adjacent elements from a string of words.
-2. gpt.py: Likely contains functionalities related to processing input text using a GPT-like model, generating or transforming text based on deep learning techniques.
-3. input.txt: A sample input file containing the text to be processed or analyzed.
-4. more.txt: Another text file, possibly containing additional data for testing or training.
+2. nano_gpt.py : this is same as gpt.py but will smaller parameter so that one could run this on there own machine with no or less GPU . This is trained on input.txt which smaller as compared to more.txt
+3. gpt.py: Implmented GPT decoder part from scratch to predict the next character of a sequene. This is trained on more.txt data(Shakespeare) and require high GPU machine.
+I trained it on my DGX server provide by my college for my internship  
+4. input.txt: A sample input file containing the text to be processed or analyzed.
+5. more.txt: Another text file, possibly containing additional data for testing or training.
+
+<img title="a title" alt="Alt text" src="transformer.webp">
 
 ### Requirements
 
@@ -34,5 +38,7 @@ Usage:-
 1. input.txt: This file contains text that will be processed by the bigram and GPT models.
 2. more.txt: This file appears to contain additional test data or text examples. It may be used for further analysis or training.
 
+
+<img title="a title" alt="Alt text" src="nano_gpt_result.png">
 
 
